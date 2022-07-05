@@ -1,7 +1,0 @@
-CREATE TABLE winefood (id INTEGER PRIMARY KEY, name TEXT, price INTEGER);
-INSERT INTO winefood (name, price) VALUES ("cabernet", 15);
-INSERT INTO winefood (name, price) VALUES ("moscato", 9);
-INSERT INTO winefood (name, price) VALUES ("pinotgrigio", 12);
-INSERT INTO winefood (name, price) VALUES ("redblend", 15);
-SELECT*FROM winefood ORDER BY price ASC;
-SELECT SUM (price) FROM winefood;
